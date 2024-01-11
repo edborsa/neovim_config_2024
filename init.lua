@@ -43,7 +43,6 @@ spec "user.autotag"
 spec "user.sleuth"
 spec "user.autopairs"
 spec "user.diffview"
-spec "user.netrw"
 -- EXTRAS
 spec "user.extras.numb"
 spec "user.extras.rainbow"
