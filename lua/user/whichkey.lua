@@ -12,6 +12,7 @@ function M.config()
     b = { name = "Buffers" },
     d = { name = "Debug" },
     f = { name = "Find" },
+    ob = { name = "Obsidian" },
     g = { name = "Git" },
     l = { name = "LSP" },
     p = { name = "Plugins" },

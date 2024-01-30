@@ -28,6 +28,7 @@ local M = {
     {
       "L3MON4D3/LuaSnip",
       event = "InsertEnter",
+      version = "v2.*",
       dependencies = {
         "rafamadriz/friendly-snippets",
       },
@@ -72,11 +73,11 @@ function M.config()
     },
     mapping = cmp.mapping.preset.insert {
       ["<C-n>"] = cmp.mapping(
-        cmp.mapping.select_next_item { behavior = types.cmp.SelectBehavior.Select },
+        cmp.mapping.select_next_item {  },
         { "i", "c" }
       ),
       ["<C-p>"] = cmp.mapping(
-        cmp.mapping.select_prev_item { behavior = types.cmp.SelectBehavior.Select },
+        cmp.mapping.select_prev_item { },
         { "i", "c" }
       ),
       ["<C-h>"] = function()
@@ -95,7 +96,7 @@ function M.config()
       },
       -- Accept currently selected item. If none selected, `select` first item.
       -- Set `select` to `false` to only confirm explicitly selected items.
-      ["<CR>"] = cmp.mapping.confirm { select = true },
+      ["<C-y>"] = cmp.mapping.confirm { select = true },
       ["<Tab>"] = cmp.mapping(function(fallback)
         if cmp.visible() then
           cmp.select_next_item()

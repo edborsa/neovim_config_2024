@@ -13,7 +13,7 @@ function M.config()
       keymap = {
         jump_next = "<c-j>",
         jump_prev = "<c-k>",
-        accept = "<c-y>",
+        accept = "<c-a>",
         refresh = "r",
         open = "<M-CR>",
       },
@@ -22,7 +22,7 @@ function M.config()
       enabled = true,
       auto_trigger = true,
       keymap = {
-        accept = "<c-y>",
+        accept = "<c-a>",
         next = "<c-j>",
         prev = "<c-k>",
         dismiss = "<c-h>",

@@ -45,7 +45,7 @@ spec "user.autopairs"
 spec "user.diffview"
 -- EXTRAS
 spec "user.extras.numb"
-spec "user.extras.rainbow"
+-- spec "user.extras.rainbow"
 spec "user.extras.matchup"
 spec "user.extras.dial"
 spec "user.extras.surround"
@@ -59,6 +59,7 @@ spec "user.extras.trailblazer"
 spec "user.extras.package-info"
 spec "user.extras.todo-comments"
 spec "user.extras.trouble"
+spec "user.extras.obsidian"
 
 require("user.lazy")
 
