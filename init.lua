@@ -43,6 +43,7 @@ spec "user.autotag"
 spec "user.sleuth"
 spec "user.autopairs"
 spec "user.diffview"
+spec("user.luasnip")
 -- EXTRAS
 spec "user.extras.numb"
 -- spec "user.extras.rainbow"
